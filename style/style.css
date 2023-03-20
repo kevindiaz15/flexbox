@@ -1,0 +1,45 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+    background-color: #005477;
+}
+
+.contenedor{
+    display: flex;
+    width: 90% ;
+max-width: 1000px;
+height: 100%;
+margin: 20px auto;
+gap: 10rem;
+}
+
+.minicontenedor{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.titulo{
+    font-size: 4rem;
+    display: flex;
+    align-content: center;
+}
+
+.texto{
+display: flex;
+align-items: center;
+flex-wrap: wrap;
+}
+
+main h2{
+    font-size: 5rem;
+}
+
+.imagen{
+    display: flex;
+}
